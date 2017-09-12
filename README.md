@@ -86,7 +86,7 @@ const index = client.initIndex(algoliaConfig.indexName);
 
 ## Indexing Content
 
-Content can be indexed from the _command line_ with the help of the `hexo algolia` command.
+Content can be indexed from the command line with the help of the `hexo algolia` command.
 
 ```bash
 $ ./node_modules/.bin/hexo algolia
