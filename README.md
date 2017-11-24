@@ -4,6 +4,13 @@
 
 Browse the [CHANGELOG][] to learn what has changed between versions.
 
+:rotating_light: This fork contains site-sensitive code and won't work on your website correctly. It includes several custom features:
+
+- Page filter
+- HTML tags filter
+- Autoformatter for better view in search results popup
+- Content size limit (less than 20 KB due to Algolia's limitation)
+
 ## Install
 
 Compatible with `node>=4.0.0`.
@@ -112,8 +119,8 @@ Description:
 Index your content in Algolia Search API
 
 Options:
-  --dry-run          Does not push content to Algolia
-  --flush            Does not reset the Algolia index before starting the indexation
+  --dry-run          Do not push content to Algolia
+  --flush            Reset the Algolia index before starting the indexation
 ```
 
 ### Security Concerns
